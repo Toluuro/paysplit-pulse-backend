@@ -6,7 +6,8 @@ url = "https://paysplit-pulse-api.onrender.com/api/webhooks/settle/"
 # 2. Pack the JSON payload with your new Database IDs
 payload = {
     "transaction_id": "TSW-WEBHOOK-LIVE-001", # Unique ID for this test
-    "amount": "100000.00",
+    "agent_id": 3,
+    "amount": "200000.00",
     "rule_id": 2,             # Your active Split Rule ID
     "primary_vendor_id": 2    # Your active Vendor ID
 }
